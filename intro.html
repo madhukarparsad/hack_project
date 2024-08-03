@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator Hub</title>
+    <link rel="stylesheet" href="intro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="bg-video">
+            <source src="https://media.istockphoto.com/id/1472294286/video/3d-animated-background-of-colorful-flowers.mp4?s=mp4-640x640-is&k=20&c=8nypPEfjhq6nvekTV8PxE7zzaPf2N-C0lEHPbOqdMLU=" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="container">
+            <h1>Welcome to the Calculator Hub!</h1>
+            <p>Which calculator would you like to use?</p>
+            <div class="buttons">
+                <a href="http://127.0.0.1:5500/nrlclc.html" class="button normal">🧮 Normal Calculator</a>
+                <a href="http://127.0.0.1:5500/age.html" class="button age">🎂 Age Calculator</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('bg-video').playbackRate = 0.5; // Adjust playback speed if needed
+    </script>
+</body>
+</html>

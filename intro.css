@@ -1,0 +1,92 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh; /* Ensure body takes full viewport height */
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ensure video container takes full viewport height */
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    text-align: center;
+    background: rgba(248, 233, 233, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    animation: float 3s ease-in-out infinite;
+    z-index: 1;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.button.normal {
+    background: #ff6b6b;
+}
+
+.button.age {
+    background: #4caf50;
+}
+
+.button.normal:hover {
+    background: #e65a5a;
+}
+
+.button.age:hover {
+    background: #449d49;
+}

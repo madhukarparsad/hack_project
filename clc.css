@@ -1,0 +1,86 @@
+
+
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(https://img.freepik.com/premium-photo/top-view-blue-calculator-notepad-color-background_260672-4055.jpg);
+    background-size: cover;
+}
+
+.calculator {
+    background: linear-gradient(135deg, #6B73FF, #000DFF);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px;
+}
+
+.display {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.display input {
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    text-align: right;
+    background: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 5px;
+    padding: 15px;
+    flex: 1;
+}
+
+button.opr {
+    background-color: #ffa502;
+    color: #fff;
+}
+
+button#eqBtn {
+    background-color: #2ed573;
+    color: #fff;
+}
+
+button#plusMinus {
+    background-color: #ff4757;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #dfe4ea;
+}
+
+button.opr:hover {
+    background-color: #eccc68;
+}
+
+button#eqBtn:hover {
+    background-color: #1e90ff;
+}
+
+button#plusMinus:hover {
+    background-color: #ff6b81;
+}

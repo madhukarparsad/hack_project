@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('cb04b03b38b01def99febb2585a48d1a.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(252, 235, 197, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    border: 2px solid #050505;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #ff6347;
+    text-shadow: 2px 2px #ffa07a;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #320be3;
+    font-weight: bold;
+    text-shadow: 1px 1px #adff2f;
+}
+
+input[type="date"] {
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #4682b4;
+    transform: scale(1.05);
+}
+
+#result {
+    font-size: 25px
+}
